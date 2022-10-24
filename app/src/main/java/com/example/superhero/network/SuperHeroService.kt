@@ -15,7 +15,7 @@ interface SuperHeroService {
 
     @GET("{access_token}/{id}/powerstats")
     suspend fun getPowerStats(
-        @Path("access-token")access_token:Long,
+        @Path("access_token")access_token:Long,
         @Path("id") id: Int
     ): PowerStatsInfo
 

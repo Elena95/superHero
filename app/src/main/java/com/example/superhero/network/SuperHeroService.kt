@@ -9,7 +9,7 @@ import retrofit2.http.Path
 interface SuperHeroService {
     @GET("{access_token}/{id}")
     suspend fun superHero(
-        @Path("access-token")access_token:Long,
+        @Path("access_token")access_token:Long,
         @Path("id") id: Int
     ): SuperHero
 
@@ -21,25 +21,25 @@ interface SuperHeroService {
 
     @GET("{access_token}/{id}/biography")
     suspend fun getBiography(
-        @Path("access-token")access_token:Long,
+        @Path("access_token")access_token:Long,
         @Path("id") id: Int
     ): BiographyInfo
 
     @GET("{access_token}/{id}/appearance")
     suspend fun getAppearance(
-        @Path("access-token")access_token:Long,
+        @Path("access_token")access_token:Long,
         @Path("id") id: Int
     ): AppearanceInfo
 
     @GET("{access_token}/{id}/work")
     suspend fun getWork(
-        @Path("access-token")access_token:Long,
+        @Path("access_token")access_token:Long,
         @Path("id") id: Int
     ): SuperHero
 
     @GET("{access_token}/{id}/connections")
     suspend fun getConnections(
-        @Path("access-token")access_token:Long,
+        @Path("access_token")access_token:Long,
         @Path("id") id: Int
     ): ConnectionsInfo
 }

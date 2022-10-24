@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.superhero"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-config:19.2.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/5ee4553e7b145f26ff5567d92004e1b8/jetified-firebase-config-19.2.0/AndroidManifest.xml:25:5-79
+12-->[com.google.firebase:firebase-config:19.2.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/5ee4553e7b145f26ff5567d92004e1b8/jetified-firebase-config-19.2.0/AndroidManifest.xml:25:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/f90e8264b612255698df295b762f81f1/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/f90e8264b612255698df295b762f81f1/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:26:22-107
+15    <uses-permission android:name="android.permission.REORDER_TASKS" />
+15-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:24:5-72
+15-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:24:22-69
+16
+17    <application
+17-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:7:5-20:19
+18        android:name="com.example.superhero.MainApplication"
+18-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:8:9-40
+19        android:allowBackup="true"
+19-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:9:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.2] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/ca6fb608da1751b8bfb49541fb8a88fd/core-1.3.2/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:label="@string/app_name"
+22-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:10:9-41
+23        android:supportsRtl="true"
+23-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:11:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Heroes"
+25-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:12:9-44
+26        android:usesCleartextTraffic="true" >
+26-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:13:9-44
+27        <activity android:name="com.example.superhero.MainActivity" >
+27-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:14:9-19:20
+27-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:14:19-47
+28            <intent-filter>
+28-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:15:13-18:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:16:17-69
+29-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:16:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:17:17-77
+31-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:17:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <service
+35-->[com.google.firebase:firebase-config-ktx:19.2.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/619c19c57b7c489fdb7f8e79e0f24e70/jetified-firebase-config-ktx-19.2.0/AndroidManifest.xml:12:9-18:19
+36            android:name="com.google.firebase.components.ComponentDiscoveryService"
+36-->[com.google.firebase:firebase-config-ktx:19.2.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/619c19c57b7c489fdb7f8e79e0f24e70/jetified-firebase-config-ktx-19.2.0/AndroidManifest.xml:13:13-84
+37            android:directBootAware="true"
+37-->[com.google.firebase:firebase-common:19.3.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/f97a1034a600dd0fc48bb39644ad8514/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+38            android:exported="false" >
+38-->[com.google.firebase:firebase-config-ktx:19.2.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/619c19c57b7c489fdb7f8e79e0f24e70/jetified-firebase-config-ktx-19.2.0/AndroidManifest.xml:14:13-37
+39            <meta-data
+39-->[com.google.firebase:firebase-config-ktx:19.2.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/619c19c57b7c489fdb7f8e79e0f24e70/jetified-firebase-config-ktx-19.2.0/AndroidManifest.xml:15:13-17:85
+40                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.ktx.FirebaseRemoteConfigKtxRegistrar"
+40-->[com.google.firebase:firebase-config-ktx:19.2.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/619c19c57b7c489fdb7f8e79e0f24e70/jetified-firebase-config-ktx-19.2.0/AndroidManifest.xml:16:17-132
+41                android:value="com.google.firebase.components.ComponentRegistrar" />
+41-->[com.google.firebase:firebase-config-ktx:19.2.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/619c19c57b7c489fdb7f8e79e0f24e70/jetified-firebase-config-ktx-19.2.0/AndroidManifest.xml:17:17-82
+42            <meta-data
+42-->[com.google.firebase:firebase-common-ktx:19.3.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/edc755e3e1dbd2ad5a71a346f8548c1c/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:15:13-17:85
+43                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+43-->[com.google.firebase:firebase-common-ktx:19.3.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/edc755e3e1dbd2ad5a71a346f8548c1c/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:16:17-113
+44                android:value="com.google.firebase.components.ComponentRegistrar" />
+44-->[com.google.firebase:firebase-common-ktx:19.3.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/edc755e3e1dbd2ad5a71a346f8548c1c/jetified-firebase-common-ktx-19.3.0/AndroidManifest.xml:17:17-82
+45            <meta-data
+45-->[com.google.firebase:firebase-config:19.2.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/5ee4553e7b145f26ff5567d92004e1b8/jetified-firebase-config-19.2.0/AndroidManifest.xml:32:13-34:85
+46                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+46-->[com.google.firebase:firebase-config:19.2.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/5ee4553e7b145f26ff5567d92004e1b8/jetified-firebase-config-19.2.0/AndroidManifest.xml:33:17-117
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-config:19.2.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/5ee4553e7b145f26ff5567d92004e1b8/jetified-firebase-config-19.2.0/AndroidManifest.xml:34:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-abt:19.1.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/3ce0694dda2ef0db3f5ed6110f6c048f/jetified-firebase-abt-19.1.0/AndroidManifest.xml:13:13-15:85
+49                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+49-->[com.google.firebase:firebase-abt:19.1.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/3ce0694dda2ef0db3f5ed6110f6c048f/jetified-firebase-abt-19.1.0/AndroidManifest.xml:14:17-109
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-abt:19.1.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/3ce0694dda2ef0db3f5ed6110f6c048f/jetified-firebase-abt-19.1.0/AndroidManifest.xml:15:17-82
+51            <meta-data
+51-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/f90e8264b612255698df295b762f81f1/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:30:13-32:85
+52                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+52-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/f90e8264b612255698df295b762f81f1/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:31:17-139
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.android.gms:play-services-measurement-api:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/f90e8264b612255698df295b762f81f1/jetified-play-services-measurement-api-17.5.0/AndroidManifest.xml:32:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-installations:16.3.2] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/d64b956b0b727806448b1b41a9d03715/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+55                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+55-->[com.google.firebase:firebase-installations:16.3.2] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/d64b956b0b727806448b1b41a9d03715/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-installations:16.3.2] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/d64b956b0b727806448b1b41a9d03715/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+57        </service>
+58
+59        <provider
+59-->[com.google.firebase:firebase-common:19.3.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/f97a1034a600dd0fc48bb39644ad8514/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+60            android:name="com.google.firebase.provider.FirebaseInitProvider"
+60-->[com.google.firebase:firebase-common:19.3.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/f97a1034a600dd0fc48bb39644ad8514/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+61            android:authorities="com.example.superhero.firebaseinitprovider"
+61-->[com.google.firebase:firebase-common:19.3.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/f97a1034a600dd0fc48bb39644ad8514/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+62            android:exported="false"
+62-->[com.google.firebase:firebase-common:19.3.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/f97a1034a600dd0fc48bb39644ad8514/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+63            android:initOrder="100" />
+63-->[com.google.firebase:firebase-common:19.3.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/f97a1034a600dd0fc48bb39644ad8514/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+64
+65        <receiver
+65-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:29:9-33:20
+66            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+66-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:30:13-85
+67            android:enabled="true"
+67-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:31:13-35
+68            android:exported="false" >
+68-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:32:13-37
+69        </receiver>
+70
+71        <service
+71-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:35:9-38:40
+72            android:name="com.google.android.gms.measurement.AppMeasurementService"
+72-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:36:13-84
+73            android:enabled="true"
+73-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:37:13-35
+74            android:exported="false" />
+74-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:38:13-37
+75        <service
+75-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:39:9-43:72
+76            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+76-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:40:13-87
+77            android:enabled="true"
+77-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:41:13-35
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:42:13-37
+79            android:permission="android.permission.BIND_JOB_SERVICE" />
+79-->[com.google.android.gms:play-services-measurement:17.5.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/e060f5102f9f8e2f9a24ee449ce1795c/jetified-play-services-measurement-17.5.0/AndroidManifest.xml:43:13-69
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.2.1] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/ab77d291fa92b77e4c9c9cfcce59bb84/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.2.1] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/ab77d291fa92b77e4c9c9cfcce59bb84/jetified-play-services-basement-17.2.1/AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.2.1] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/ab77d291fa92b77e4c9c9cfcce59bb84/jetified-play-services-basement-17.2.1/AndroidManifest.xml:25:13-66
+84
+85        <activity
+85-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:27:9-34:20
+86            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+86-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:28:13-99
+87            android:exported="true"
+87-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:29:13-36
+88            android:theme="@android:style/Theme" >
+88-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:30:13-49
+89            <intent-filter>
+89-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+90                <action android:name="android.intent.action.MAIN" />
+90-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:16:17-69
+90-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:16:25-66
+91            </intent-filter>
+92        </activity>
+93        <activity
+93-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:35:9-42:20
+94            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+94-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:36:13-95
+95            android:exported="true"
+95-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:37:13-36
+96            android:theme="@android:style/Theme" >
+96-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:38:13-49
+97            <intent-filter>
+97-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+98                <action android:name="android.intent.action.MAIN" />
+98-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:16:17-69
+98-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:16:25-66
+99            </intent-filter>
+100        </activity>
+101        <activity
+101-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:43:9-50:20
+102            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+102-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:44:13-103
+103            android:exported="true"
+103-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:45:13-36
+104            android:theme="@android:style/Theme.Dialog" >
+104-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:46:13-56
+105            <intent-filter>
+105-->[androidx.test:core:1.4.0] /Users/jonathancorrea/.gradle/caches/transforms-2/files-2.1/78665fbe8b285924b257691cc43b07a5/jetified-core-1.4.0/AndroidManifest.xml:31:13-33:29
+106                <action android:name="android.intent.action.MAIN" />
+106-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:16:17-69
+106-->/Users/jonathancorrea/Downloads/Elena/coppel/walmart-heroes-training/app/src/main/AndroidManifest.xml:16:25-66
+107            </intent-filter>
+108        </activity>
+109    </application>
+110
+111</manifest>

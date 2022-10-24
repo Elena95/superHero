@@ -1,0 +1,50 @@
+<resources>
+  <string name="comic_available">Available comics: %d</string>
+  <string name="name_hero">%d</string>
+  <string name="title_comic">Comics</string>
+  <string name="title_series">Series</string>
+  <string name="large_text">Rick Jones has been Hulks best bud since day one, but now hes more than a friend…hes a teammate! Transformed by a Gamma energy explosion, A-Bombs thick, armored skin is just as strong and powerful as it is blue. And when he curls into action, he uses it like a giant bowling ball of destruction</string>
+  <string name="example">Example</string>
+  <string name="search">Search</string>
+  <string name="result">Results</string>
+
+
+  <string name="app_name">Super Hero</string>
+  <string name="title">Project Gemini</string>
+  <string name="percent">59</string>
+  <string name="date">Jan 06,2022</string>
+  <string name="menu_Images">Subir Imagenes</string>
+  <string name="menu_Locate">Ubicación</string>
+
+  <string name="gender">Gender</string>
+  <string name="race">Race</string>
+  <string name="height">Height</string>
+  <string name="weight">Weight</string>
+  <string name="eye_color">Eye Color</string>
+  <string name="hair_color">Hair Color</string>
+
+  <string name="intelligence">Intelligence</string>
+  <string name="strength">Strength</string>
+  <string name="speed">Speed</string>
+  <string name="durability">Durability</string>
+  <string name="power">Power</string>
+  <string name="combat">Combat</string>
+
+  <string name="full_name">Name</string>
+  <string name="alter_egos">Alter Egos</string>
+  <string name="aliases">Aliases</string>
+  <string name="birth">Place of Birth</string>
+  <string name="appearance">First Appearance</string>
+  <string name="publisher">Publisher</string>
+  <string name="alignment">Alignment</string>
+
+  <string name="work">Work</string>
+
+  <string name="occupation">Occupation</string>
+  <string name="base">Base</string>
+  <string name="affiliation">Group Affiliation</string>
+  <string name="relatives">Relatives</string>
+
+  <string name="tvOverview">Overview</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/superHeroFragment">
+
+    <fragment
+        android:id="@+id/superHeroFragment"
+        android:name="com.example.superhero.fragment.SuperHeroFragment"
+        android:label="Heroes"
+        tools:layout="@layout/super_hero_fragment">
+        <action
+            android:id="@+id/action_heroesFragment_to_detailScreenFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.superhero.fragment.DetailFragment"
+        android:label="{name}"
+        tools:layout="@layout/detail_fragment">
+        <argument
+            android:name="superHero"
+            app:argType="com.example.superhero.data.entities.SuperHero" />
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <action
+            android:id="@+id/detail_fragmentFragment_to_powerstatsFragment"
+            app:destination="@id/powerstatsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/powerstatsFragment"
+        android:name="com.example.superhero.fragment.PowerStatsFragment"
+        tools:layout="@layout/powerstats_fragment">
+        <argument
+            android:name="superHero"
+            app:argType="com.example.superhero.data.entities.SuperHero"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/appearanceFragment"
+        android:name="com.example.superhero.fragment.AppearanceFragment"
+        android:label="Heroes"
+        tools:layout="@layout/appearance_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/biographyFragment"
+        android:name="com.example.superhero.fragment.BiographyFragment"
+        android:label="Heroes"
+        tools:layout="@layout/biography_fragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/connectionsFragment"
+        android:name="com.example.superhero.fragment.ConnectionsFragment"
+        android:label="Heroes"
+        tools:layout="@layout/connections_fragment">
+    </fragment>
+</navigation>

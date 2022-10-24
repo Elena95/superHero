@@ -8,6 +8,7 @@ data class BiographyInfo(
     val response: String,
     val id: Int,
     val name: String,
+    @SerializedName("full-name")
     val full_name: String,
     val alter_egos: String,
     val aliases: List<String>,

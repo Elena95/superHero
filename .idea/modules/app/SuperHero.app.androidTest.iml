@@ -133,8 +133,8 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e02fcf091a6ca120174879d23482823c/jetified-protobuf-javalite-3.11.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8f28394da57333872fab5e6654252ef8/jetified-auto-value-annotations-1.6.5.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7f1d09841f4430370bfa508dbef25059/jetified-okio-1.17.2.jar</arg>
-                <arg>$USER_HOME$/Library/Android/sdk/platforms/android-30/android.jar</arg>
-                <arg>$USER_HOME$/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-30/android.jar</arg>
+                <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
             </stringArg>
             <stringArg name="destination" arg="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debugAndroidTest" />

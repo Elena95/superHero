@@ -7,40 +7,40 @@ import retrofit2.http.Path
 //Peticiones que se ocuparan
 
 interface SuperHeroService {
-    @GET("3607027246225332/{id}")
+    @GET("{access_token}/{id}")
     suspend fun superHero(
-        @Path("id") id: Int,
-        //@Path("access-token")access_token:String
+        @Path("access-token")access_token:Long,
+        @Path("id") id: Int
     ): SuperHero
 
-    @GET("3607027246225332/{id}/powerstats")
+    @GET("{access_token}/{id}/powerstats")
     suspend fun getPowerStats(
-        @Path("id") id: Int,
-        // @Path("access-token")access_token:String
+        @Path("access-token")access_token:Long,
+        @Path("id") id: Int
     ): PowerStatsInfo
 
-    @GET("3607027246225332/{id}/biography")
+    @GET("{access_token}/{id}/biography")
     suspend fun getBiography(
-        @Path("id") id: Int,
-        // @Path("access-token")access_token:String
+        @Path("access-token")access_token:Long,
+        @Path("id") id: Int
     ): BiographyInfo
 
-    @GET("3607027246225332/{id}/appearance")
+    @GET("{access_token}/{id}/appearance")
     suspend fun getAppearance(
-        @Path("id") id: Int,
-        // @Path("access-token")access_token:String
+        @Path("access-token")access_token:Long,
+        @Path("id") id: Int
     ): AppearanceInfo
 
-    @GET("3607027246225332/{id}/work")
+    @GET("{access_token}/{id}/work")
     suspend fun getWork(
-        @Path("id") id: Int,
-        // @Path("access-token")access_token:String
+        @Path("access-token")access_token:Long,
+        @Path("id") id: Int
     ): SuperHero
 
-    @GET("3607027246225332/{id}/connections")
+    @GET("{access_token}/{id}/connections")
     suspend fun getConnections(
-        @Path("id") id: Int,
-        // @Path("access-token")access_token:String
+        @Path("access-token")access_token:Long,
+        @Path("id") id: Int
     ): ConnectionsInfo
 }
 

@@ -8,23 +8,23 @@ open class RepositoryImpl @Inject constructor(private val api: SuperHeroService)
     private val access_token = com.example.superhero.BuildConfig.ACCESS_TOKEN
 
     override suspend fun getSuperHero(id: Int): SuperHero {
-        return api.superHero(id)
+        return api.superHero(access_token,id)
     }
 
     override suspend fun getPowerStats(id: Int): PowerStatsInfo {
-        return api.getPowerStats(id)
+        return api.getPowerStats(access_token,id)
     }
 
     override suspend fun getBiography(id: Int): BiographyInfo {
-        return api.getBiography(id)
+        return api.getBiography(access_token,id)
     }
 
     override suspend fun getAppearance(id: Int): AppearanceInfo {
-        return api.getAppearance(id)
+        return api.getAppearance(access_token,id)
     }
 
     override suspend fun getConnections(id: Int): ConnectionsInfo {
-        return api.getConnections(id)
+        return api.getConnections(access_token,id)
     }
 
 }

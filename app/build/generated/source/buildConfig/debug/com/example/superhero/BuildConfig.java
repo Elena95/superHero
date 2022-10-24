@@ -10,7 +10,7 @@ public final class BuildConfig {
   public static final int VERSION_CODE = 1;
   public static final String VERSION_NAME = "1.0";
   // Field from build type: debug
-  public static final String ACCESS_TOKEN = "3607027246225332";
+  public static final Long ACCESS_TOKEN = 3607027246225332L;
   // Field from build type: debug
   public static final String BASE_URL = "https://www.superheroapi.com/api/";
 }
